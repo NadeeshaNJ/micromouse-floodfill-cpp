@@ -3,8 +3,9 @@ Micromouse maze-solving algorithm(floodfill) in C++
 
 For use with [mackorone/mms](https://github.com/mackorone/mms), a Micromouse simulator.
 
-This code was initially created to work with an actual [micromouse](https://github.com/NadeeshaNJ/MicroMouse) therefore some of the codes can be redundant for the simulation.
+This code was originally developed for an actual [micromouse](https://github.com/NadeeshaNJ/MicroMouse), so some parts may be redundant for the simulation.
 ## Info
+This repository contains multiple versions of the main control loop for different micromouse run strategies:  
 - `originalmain.cpp` - performs a single Search Run from Start to Goal(center of the maze)<br/>
 * `ReturnMain.cpp` - performs a return run where it do a Search Run and a Backtracking. This also shows the shortest path it had discovered.<br/>
 + `DoubleCheckMain.cpp` - performs **two*** Search Runs to refine the map and then shows the final shortest possible path through the discovered cells.<br/>
@@ -22,6 +23,6 @@ Windows:
 5. Click the "Run" button
 
 ## Additional Resources
-You can find mazefiles from [here](https://github.com/micromouseonline/mazefiles) . This includes mazes from international level competitions
+You can find mazefiles from [here](https://github.com/micromouseonline/mazefiles) . This includes mazes from international level competitions<br/>
 There is a very useful project from [Bulebots](https://github.com/Bulebots/ommr) that can create maze files using images of them.
 
