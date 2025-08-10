@@ -7,9 +7,9 @@ It supports **search runs**, **Backtracking**, and **shortest path discovery**, 
 This code was originally developed for an actual [micromouse](https://github.com/NadeeshaNJ/MicroMouse), so some parts may be redundant for the simulation.
 ## Info
 This repository contains multiple versions of the main control loop for different micromouse run strategies:  
-- `originalmain.cpp` - performs a single Search Run from Start to Goal(center of the maze)<br/>
-* `ReturnMain.cpp` - performs a return run where it do a Search Run and a Backtracking. This also shows the shortest path it had discovered.<br/>
-+ `DoubleCheckMain.cpp` - performs **two*** Search Runs to refine the map and then shows the final shortest possible path through the discovered cells.<br/>
+- `Floodfill_SearchRun.cpp` - performs a single Search Run from Start to Goal(center of the maze)<br/>
+* `Floodfill_Backtracking.cpp` - performs a return run where it do a Search Run and a Backtracking. This also shows the shortest path it had discovered.<br/>
++ `Floodfill_DoubleSearch.cpp` - performs **two*** Search Runs to refine the map and then shows the final shortest possible path through the discovered cells.<br/>
 - `Testing.cpp` is the file I use to test new algorithms.<br/>
 
 
