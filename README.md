@@ -22,6 +22,6 @@ Windows:
 5. Click the "Run" button
 
 ## Additional Resources
-
+You can find mazefiles from [here](https://github.com/micromouseonline/mazefiles) . This includes mazes from international level competitions
 There is a very useful project from [Bulebots](https://github.com/Bulebots/ommr) that can create maze files using images of them.
 
