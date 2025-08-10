@@ -1,3 +1,6 @@
+// Micromouse floodfill maze-solving algorithm
+// Compatible with MMS Simulator
+// Written in C++ for robotics competitions
 #include "API.h"
 #include <array>
 #include <queue>
