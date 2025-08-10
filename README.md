@@ -21,10 +21,4 @@ Windows:
 4. Enter the config for your algorithm (name, directory, build command, and run command)
 5. Click the "Run" button
 
-## Examples
 
-![](https://github.com/mackorone/mms-cpp/blob/master/config-windows.png)
-
-Linux (Ubuntu):
-
-![](https://github.com/mackorone/mms-cpp/blob/master/config-linux.png)
