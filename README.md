@@ -1,4 +1,4 @@
-# Micromouse Floodfill Maze Solver in C++ for MMS Simulator
+# Micromouse Floodfill Maze Solver in C++ for mms Simulator
 Micromouse maze-solving algorithm(floodfill) in C++
 
 This project implements a **Micromouse floodfill maze-solving algorithm** in **C++**, designed to run with the [mms Micromouse Simulator](https://github.com/mackorone/mms).  
