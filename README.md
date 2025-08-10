@@ -1,5 +1,5 @@
 # mms_floodfill_cpp
-Micromouse maze-solving algorithm(floodfill) in C++.
+Micromouse maze-solving algorithm(floodfill) in C++
 
 For use with [mackorone/mms](https://github.com/mackorone/mms), a Micromouse simulator.
 
