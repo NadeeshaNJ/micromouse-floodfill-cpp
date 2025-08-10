@@ -12,6 +12,7 @@ This repository contains multiple versions of the main control loop for differen
 - `Testing.cpp` is the file I use to test new algorithms.<br/>
 
 ## Setup
+
 You can find all the instructions for the simulator in C++ in [here](https://github.com/mackorone/mms-cpp)   
 
 Windows:
@@ -23,6 +24,12 @@ Windows:
 5. Click the "Run" button
 
 ## Additional Resources
+
 You can find mazefiles from [here](https://github.com/micromouseonline/mazefiles) . This includes mazes from international level competitions<br/>
 There is a very useful project from [Bulebots](https://github.com/Bulebots/ommr) that can create maze files using images of them.
 
+## Notes
+
+- If you're using Windows, you may need to download and install [MinGW](http://mingw.org/wiki/Getting_Started)
+- Communication with the simulator is done via stdin/stdout, use stderr to print output
+- Descriptions of all available API methods can be found at [mackorone/mms#mouse-api](https://github.com/mackorone/mms#mouse-api)
