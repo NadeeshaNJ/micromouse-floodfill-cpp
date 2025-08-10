@@ -12,6 +12,8 @@ This repository contains multiple versions of the main control loop for differen
 + `DoubleCheckMain.cpp` - performs **two*** Search Runs to refine the map and then shows the final shortest possible path through the discovered cells.<br/>
 - `Testing.cpp` is the file I use to test new algorithms.<br/>
 
+
+![Micromouse maze solving using floodfill algorithm in mms simulator](https://github.com/NadeeshaNJ/micromouse-floodfill-cpp/blob/main/Maze-solving-using-floodfill.png)
 ## Setup
 
 You can find all the instructions for the simulator in C++ from [here](https://github.com/mackorone/mms-cpp)   
