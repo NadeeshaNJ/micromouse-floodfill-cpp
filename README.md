@@ -10,7 +10,7 @@ This code was initially created to work with an actual [micromouse](https://gith
 + `DoubleCheckMain.cpp` - performs **two*** Search Runs to refine the map and then shows the final shortest possible path through the discovered cells.<br/>
 - `Testing.cpp` is the file I use to test new algorithms.<br/>
 
-# Setup
+## Setup
 You can find all the instructions for the simulator in C++ in [here](https://github.com/mackorone/mms-cpp)   
 
 Windows:
@@ -21,4 +21,7 @@ Windows:
 4. Enter the config for your algorithm (name, directory, build command, and run command)
 5. Click the "Run" button
 
+## Additional Resources
+
+There is a very useful project from [Bulebots](https://github.com/Bulebots/ommr) that can create maze files using images of them.
 
