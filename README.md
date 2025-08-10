@@ -13,7 +13,7 @@ This repository contains multiple versions of the main control loop for differen
 
 ## Setup
 
-You can find all the instructions for the simulator in C++ in [here](https://github.com/mackorone/mms-cpp)   
+You can find all the instructions for the simulator in C++ from [here](https://github.com/mackorone/mms-cpp)   
 
 Windows:
 
