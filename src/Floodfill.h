@@ -9,8 +9,8 @@ using namespace std;
 struct grid {
         array<array<pair<int, int>, 16>, 16> horizontal_walls; // (left,right)
         array<array<pair<int, int>, 16>, 16> vertical_walls; // (up,down)
-        array<array<int, 16>, 16> manhattan_distances = {}; // assigned false at the beginning
-        array<array<int, 16>, 16> reverse_manhattan_distances = {}; // assigned false at the beginning
+        array<array<int, 16>, 16> manhattan_distances = {255}; // assigned false at the beginning
+        array<array<int, 16>, 16> reverse_manhattan_distances = {255}; // assigned false at the beginning
         array<array<bool, 16>, 16> visited{};
 
     };

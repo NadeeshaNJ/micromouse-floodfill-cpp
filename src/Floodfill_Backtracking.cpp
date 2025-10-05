@@ -92,9 +92,6 @@ bool Floodfill::hasWall(int row, int col, int dir) {
 void Floodfill::floodfill() {
     queue<pair<int, int>> q;    
 
-    for (auto& row : maze.manhattan_distances)
-        row.fill(255); // Re-initialize all distances to a large number
-
     maze.manhattan_distances[8][8] = 0; //row,column
     maze.manhattan_distances[8][7] = 0;
     maze.manhattan_distances[7][8] = 0;
