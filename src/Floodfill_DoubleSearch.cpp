@@ -60,25 +60,13 @@ void Floodfill::detectWalls(vector<int> sensorDistances, int row, int col, int d
     if(row < 0 || row >= 16 || col < 0 || col >= 16) return; // out of bounds
     if(API::wallFront()) { // North Wall
         setWall(row, col, direction);
-        // Serial.print("Wall detected at ");
-        // Serial.print(direction);
-        // Serial.print(" with distance: ");
-        // Serial.println(sensorDistances[2]);
     }
     if(API::wallLeft()) {
         setWall(row, col, (direction + 3) % 4);
-        // Serial.print("Wall detected at ");
-        // Serial.print((direction + 3) % 4);
-        // Serial.print(" with distance: ");
-        // Serial.println(sensorDistances[0]);
     }
     //if(sensorDistances[1] < wall_threshhold) setWall(row, col, direction);
     if(API::wallRight()) {
         setWall(row, col, (direction + 1) % 4);
-        // Serial.print("Wall detected at ");
-        // Serial.print((direction + 1) % 4);
-        // Serial.print(" with distance: ");
-        // Serial.println(sensorDistances[4]);
     }
 }
 bool Floodfill::hasWall(int row, int col, int dir) {
